@@ -1,7 +1,4 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
     border: 0;
     font-family: 'lato';
 }
@@ -9,6 +6,7 @@ a:link { text-decoration: none; color: black;}
 a:visited { text-decoration: none; color: black;}
 a:hover { text-decoration: none; color: black; }
 a:active { text-decoration: none; color: black;}
+
 .PHLine{
     width: 70%;
     margin-left: 15%;
@@ -65,7 +63,7 @@ a:active { text-decoration: none; color: black;}
     margin-top: 3%;
 }
 .SectionImage img{
-    width: 600px;
+    width: 400px;
 }
 #Inicio2 h2{
     font-size:x-large;
@@ -244,7 +242,128 @@ form input{
     margin-top: 10px;
 }
 .FooterLine{
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+.ServiciosSection1Title h1{
+    font-family: 'Lato';
+    font-weight: 600; 
+    font-size:xx-large;
+    color: black;
+}
+.ServiciosSection1Breadcrumb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #03045e;
+    column-gap: 5px;
+}
+.BreadcrumbItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.BreadLink{
+    text-decoration: none;
+}
+.BreadCrumb{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.SectionTextCenter p{
+    width: 70%;
+}
+.serviciosseccion3{
+    margin-top: 50px;
+}
+.seccionser{
+    margin-top: 30px;
+}
+.PreciosA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    background-color: #03045e;
+    border-radius: 10px;
+}
+.TituloPreciosA{
+    font-size: x-large;
+    font-weight:700;
+    color: white;
+    margin-left: 33%;
+}
+.ListaPrecioA{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-style: oblique;
+}
+.CostoA{
+    margin-left: 25%;
+    font-size: large;
+    color: #f0a202;
+    font-weight: 600;
+    font-style: italic;
+}
+.PreciosB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 200px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    background-color: #f0a202;
+    border-radius: 10px;
+}
+.TituloPreciosB{
+    font-size: xx-large;
+    font-weight:900;
+    color: white;
+    margin-left: 30%;
+}
+.ListaPrecioB{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-style: oblique;
+}
+.CostoB{
+    margin-left: 25%;
+    font-size: large;
+    color: #03045e;
+    font-weight: 600;
+    font-style: italic;
+}
+.Formulario{
+    display: flex;
+    font-family: 'Lato';
+    align-items: center;
+}
+.FormSection{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    font-family: 'Lato';
+    font-size:large;
+    font-weight: 600;
+    color: #03045e;
+}
+label{
+    margin-bottom: 5px;
+}
+.FormText{
+    border-radius: 10px;
+    border-width: 1px;
+    height: 20px;
 }
