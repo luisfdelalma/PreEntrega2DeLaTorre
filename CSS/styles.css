@@ -1,3 +1,250 @@
-.titulo{
-    color:blue;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'lato';
+}
+a:link { text-decoration: none; color: black;}
+a:visited { text-decoration: none; color: black;}
+a:hover { text-decoration: none; color: black; }
+a:active { text-decoration: none; color: black;}
+.PHLine{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.TituloHeader{
+    font-family: 'lato';
+    font-weight: 900;
+    font-size: 50px;
+}
+.HeaderMenu a:link{
+    text-decoration: none;
+    color:#03045e;
+    font-weight: 600;
+}
+.HeaderMenu a:hover{
+    text-decoration: none;
+    color:#E8630A;
+}
+.HeaderMenu a:active{
+    text-decoration: none;
+    color:#E8630A;
+}
+.Button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: #03045e;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Button a:hover{
+    background-color:#E8630A;
+    color:white;
+}
+.SectionTitle1{
+    line-height: 200%;
+    color: #03045e;
+}
+.SectionTitle1 h1{
+    font-weight: 600;
+}
+.SectionText p{
+    /* width: 30%; */
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.SectionImage img{
+    width: 600px;
+}
+#Inicio2 h2{
+    font-size:x-large;
+    font-weight:800;
+    color: #03045e;
+}
+.IconItem img{
+    width:70px;
+    height: 70px;
+}
+.IconNumber{
+    font-size: xx-large;
+    font-weight: 800;
+    color: #03045e;
+    margin-bottom: 0px;
+}
+.IconText{
+    font-size: medium;
+    color: gray;
+}
+.SectionPreTitle h1{
+    font-size:large;
+    font-weight: 600;
+    margin: 0px;
+    color: #f0a202;
+}
+.Section2Title1{
+    margin-top: 10px;
+}
+.Section2Title1 h1{
+    font-size:xx-large;
+    margin: 0px;
+    font-weight: 700;
+    color: #03045e;
+}
+.SectionListItem{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+}
+.SectionListItem img{
+    width: 50px;
+    height: 50px;
+}
+.SectionListItemText{
+    margin-left: 20px;
+}
+.SectionListItemText h3{
+    margin: 0px;
+    color: #03045e;
+    font-size:larger;
+    font-weight: 600;
+}
+.SectionListItemText p{
+    margin: 0px;
+    margin-top: 5px;
+    font-size:medium;
+    font-weight:500;
+    width: 75%;
+}
+.imgizq img{
+    width: 600px;
+}
+.CheckList{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.CheckListItem{
+    display: flex;
+    flex-direction: row;
+}
+.CheckListItem img{
+    width: 25px;
+    height: 25px;
+}
+.CheckListItem p{
+    margin-left: 10px;
+}
+.ServiceItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ServiceIcon img{
+    width: 200px;
+    height: 200px;
+}
+.ServiceText{
+    font-family: 'Lato';
+    font-size: large;
+    font-weight: 600;
+    color: #03045e;
+    text-align: center;
+}
+.Footer1{
+    justify-content: left;
+}
+.FooterTitle{
+    font-size: x-large;
+    font-weight:900;
+    margin-bottom: 20px;
+}
+.FooterText1{
+    width:85%;
+    margin-bottom: 50px;
+}
+.FooterIcon img{
+    margin: 0px;
+    margin-right: 10px;
+}
+.Footer2{
+    align-items: left;
+}
+.FooterSubTitle{
+    font-size:large;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.FooterMenu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.FooterMenuItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.FooterArrow{
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+}
+.FooterLink{
+    font-size:medium;
+    text-decoration: none;
+    color: #03045e;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.Footer3{
+    padding-left: 0%;
+    justify-content: left;
+    align-items: left;
+}
+.Footer4{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+.FooterText2{
+    width: 100%;
+}
+form input{
+    border-radius: 15px;
+    height: 25px;
+    width: 250px;
+    border-width: 1px;
+}
+.FooterButton a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    height: 25px;
+    width: 255px;
+    border-width: 1px;
+    background-color:#f0a202;
+    margin-top: 10px;
+}
+.FooterLine{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
